@@ -1,12 +1,9 @@
 var x = 8;
 var y = 4;
-var z = x + y;
-var b = x * y;
-var d = x - y; 
-var addition = "If I add first variable to second variable I'll get x + y:"
-var subtraction = "If I subtract first variable to second variable I'll get x - y:" 
-document.getElementById("add").innerHTML = z;
-document.getElementById("molt").innerHTML = b;
-document.getElementById("sub").innerHTML = d;
-document.getElementById("addition").innerHTML = addition;
-document.getElementById("subtraction").innerHTML = subtraction;
+var addition = x + y; 
+var subtraction = x - y;
+var moltiplication = x * y;
+
+document.getElementById("add").innerHTML = "If I add" + x + "to" + y + "I get" + addition;
+document.getElementById("molt").innerHTML = "If I multiply" + x "times" + y + "I get" moltiplication;
+document.getElementById("sub").innerHTML = "If I subtract" + x "minus" + y + "I get" subtraction;
