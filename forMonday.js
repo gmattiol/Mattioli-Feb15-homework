@@ -1,0 +1,12 @@
+var x = 8;
+var y = 4;
+var z = x + y;
+var b = x * y;
+var d = x - y; 
+var addition = "If I add first variable to second variable I'll get x + y:"
+var subtraction = "If I subtract first variable to second variable I'll get x - y:" 
+document.getElementById("add").innerHTML = z;
+document.getElementById("molt").innerHTML = b;
+document.getElementById("sub").innerHTML = d;
+document.getElementById("addition").innerHTML = addition;
+document.getElementById("subtraction").innerHTML = subtraction;
